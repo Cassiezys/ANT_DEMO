@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <DemoHeader msg="Welcome to ALWEB"/>
+    <DemoFooter msg="©2019 APWeb-WAIM Joint Conference on Web and Big Data"/>
     <a-button type="primary">Button</a-button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DemoFooter from "@/components/DemoFooter";
+import DemoHeader from "@/components/DemoHeader";
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    DemoHeader,
+    DemoFooter
   }
 }
 </script>
