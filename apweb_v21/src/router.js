@@ -4,6 +4,7 @@ import Home from './components/HomePage.vue'
 import Previous from './components/previousConferences/PreviousPage'
 import Organizing from './components/organization/OrganizingPage'
 import Program from './components/organization/ProgramPage'
+import Workshops from './components/workshops/WorkshopsPage'
 
 Vue.use(Router)
 
@@ -30,6 +31,11 @@ export default new Router({
       path: '/program_committee',
       name: 'program',
       component: Program,
+    },
+    {
+      path: '/workshops',
+      name: 'workshops',
+      component: Workshops,
     }
   ]
 })

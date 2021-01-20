@@ -28,7 +28,7 @@ export default {
   name: "PreviousConferences",
   data(){
     return {
-      title: 'PREVIOUS CONFERENCES'
+      title: 'Prenious Conferences'
     }
   }
 }

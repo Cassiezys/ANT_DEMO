@@ -78,7 +78,7 @@
                     <a href="/program_committee">Program Committee</a>
                   </a-menu-item>
               </a-sub-menu>
-              <a-menu-item key="WORKSHOPS"> <a-icon type="profile" />WORKSHOPS</a-menu-item>
+              <a-menu-item key="WORKSHOPS"><a href="/workshops"><a-icon type="profile" />WORKSHOPS</a></a-menu-item>
               <a-menu-item key="PREVIOUS CONFERENCES"><a href="/previous">
                 <a-icon type="history" />PREVIOUS CONFERENCES</a></a-menu-item>
             </a-menu>
