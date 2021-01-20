@@ -33,41 +33,72 @@
               </a-sub-menu>
               <a-sub-menu>
                 <span slot="title" class="submenu-title-wrapper">PROGRAM<a-icon type="caret-down" /></span>
-                <a-menu-item-group title="Item 1">
-                  <a-menu-item key="setting:1">
-                    Option 1
-                  </a-menu-item>
-                  <a-menu-item key="setting:2">
-                    Option 2
-                  </a-menu-item>
-                </a-menu-item-group>
-                <a-menu-item-group title="Item 2">
-                  <a-menu-item key="setting:3">
-                    Option 3
-                  </a-menu-item>
-                  <a-menu-item key="setting:4">
-                    Option 4
-                  </a-menu-item>
-                </a-menu-item-group>
+                <a-menu-item key="tutorial">
+                    <a href="/program/tutorial">
+                      Tutorial
+                    </a>
+                </a-menu-item>
+
+                <a-menu-item key="keynote_speech">
+                    <a href="/program/keynote_speech">
+                      Keynote Speeches
+                    </a>
+                </a-menu-item>
+
+                <a-menu-item key="overview">
+                    <a href="/program/overview">
+                      Overview
+                    </a>
+                </a-menu-item>
+
+                <a-menu-item key="sessions">
+                    <a href="/program/sessions">
+                      Sessions
+                    </a>
+                </a-menu-item>
+
+                <a-menu-item key="proceedings">
+                    <a href="/program/proceedings">
+                      Proceedings
+                    </a>
+                </a-menu-item>
               </a-sub-menu>
               <a-sub-menu>
                 <span slot="title" class="submenu-title-wrapper">SUBMISSION<a-icon type="caret-down" /></span>
-                <a-menu-item-group title="Item 1">
-                  <a-menu-item key="setting:1">
-                    Option 1
-                  </a-menu-item>
-                  <a-menu-item key="setting:2">
-                    Option 2
-                  </a-menu-item>
-                </a-menu-item-group>
-                <a-menu-item-group title="Item 2">
-                  <a-menu-item key="setting:3">
-                    Option 3
-                  </a-menu-item>
-                  <a-menu-item key="setting:4">
-                    Option 4
-                  </a-menu-item>
-                </a-menu-item-group>
+                <a-menu-item key="call_for_papers">
+                    <a href="/submission/CallForPapers">
+                      Call For Papers
+                    </a>
+                </a-menu-item>
+
+                <a-menu-item key="call_for_demo_papers">
+                    <a href="/submission/CallForDemoPapers">
+                      Call For Demo Papers
+                    </a>
+                </a-menu-item>
+
+                <a-menu-item key="call_for_workshops">
+                    <a href="/submission/CallForWorkshops">
+                      Call For Workshops
+                    </a>
+                </a-menu-item>
+
+                <a-menu-item key="call_for_tutorials">
+                    <a href="/submission/CallForTutorials">
+                      Call For Tutorials
+                    </a>
+                </a-menu-item>
+
+                <a-menu-item key="submission">
+                    <a href="/submission/Submissions">
+                      Submission
+                    </a>
+                </a-menu-item>
+                <a-menu-item key="camera_ready_instruction">
+                  <a href="/submission/CameraReadyInstruction">
+                    Camera Ready Instruction
+                  </a>
+                </a-menu-item>
               </a-sub-menu>
               <a-sub-menu>
                 <span slot="title" class="submenu-title-wrapper">ORGANIZATION<a-icon type="caret-down" /></span>
