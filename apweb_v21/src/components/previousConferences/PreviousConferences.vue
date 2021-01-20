@@ -41,7 +41,16 @@ export default {
 #components-layout-demo-basic .ant-layout-header{
   padding: 20px 0 0 0;
   background: #ffffff;
-  height: 150px;
+  height: 200px;
+}
+#components-layout-demo-basic .ant-layout-header h1{
+  font-size: 2em;
+  font-weight: 200;
+  text-align: center;
+  padding: 20px;
+  /* padding-top: 30px; */
+  /* padding-bottom: 30px; */
+  color: white
 }
 #components-layout-demo-basic .ant-layout-header .head {
   text-align: center;
@@ -50,7 +59,7 @@ export default {
 }
 #components-layout-demo-basic .ant-layout-content {
   background: #ffffff;
-  padding: 0 300px;
+  padding: 0 420px;
 }
 #components-layout-demo-basic .ant-layout-content h2{
   font-size: 1.2em;

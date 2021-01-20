@@ -70,23 +70,13 @@
                 </a-menu-item-group>
               </a-sub-menu>
               <a-sub-menu>
-                <span slot="title" class="submenu-title-wrapper">>ORGANIZATION<a-icon type="caret-down" /></span>
-                <a-menu-item-group title="Item 1">
+                <span slot="title" class="submenu-title-wrapper">ORGANIZATION<a-icon type="caret-down" /></span>
                   <a-menu-item key="setting:1">
-                    Option 1
+                    <a href="/organizing_committee">Organizing Committee</a>
                   </a-menu-item>
                   <a-menu-item key="setting:2">
-                    Option 2
+                    <a href="/program_committee">Program Committee</a>
                   </a-menu-item>
-                </a-menu-item-group>
-                <a-menu-item-group title="Item 2">
-                  <a-menu-item key="setting:3">
-                    Option 3
-                  </a-menu-item>
-                  <a-menu-item key="setting:4">
-                    Option 4
-                  </a-menu-item>
-                </a-menu-item-group>
               </a-sub-menu>
               <a-menu-item key="WORKSHOPS"> <a-icon type="profile" />WORKSHOPS</a-menu-item>
               <a-menu-item key="PREVIOUS CONFERENCES"><a href="/previous">
