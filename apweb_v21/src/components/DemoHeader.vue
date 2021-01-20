@@ -10,7 +10,8 @@
           <!-- 导航列表-->
           <a-col :span="20">
             <a-menu v-model="current" class="menu" mode="horizontal">
-              <a-menu-item key="HOME"> <a-icon type="home" />HOME</a-menu-item>
+              <a-menu-item key="HOME"> <a href="/"><a-icon type="home" />
+                HOME</a></a-menu-item>
               <a-sub-menu>
                 <span slot="title" class="submenu-title-wrapper">PARTICIPATING<a-icon type="caret-down" /></span>
                 <a-menu-item-group title="Item 1">
@@ -88,7 +89,8 @@
                 </a-menu-item-group>
               </a-sub-menu>
               <a-menu-item key="WORKSHOPS"> <a-icon type="profile" />WORKSHOPS</a-menu-item>
-              <a-menu-item key="PREVIOUS CONFERENCES"> <a-icon type="history" />PREVIOUS CONFERENCES</a-menu-item>
+              <a-menu-item key="PREVIOUS CONFERENCES"><a href="/previous">
+                <a-icon type="history" />PREVIOUS CONFERENCES</a></a-menu-item>
             </a-menu>
           </a-col>
         </a-row>
