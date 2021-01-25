@@ -6,6 +6,7 @@
           <!-- 左边的LOGO -->
           <a-col :span="4">
             <img alt="Vue logo" class="apweb-logo" src="../assets/logo.png">
+
           </a-col>
           <!-- 导航列表-->
           <a-col :span="20">
@@ -14,22 +15,16 @@
                 HOME</a></a-menu-item>
               <a-sub-menu>
                 <span slot="title" class="submenu-title-wrapper">PARTICIPATING<a-icon type="caret-down" /></span>
-                <a-menu-item-group title="Item 1">
-                  <a-menu-item key="setting:1">
-                    Option 1
+                  <a-menu-item key="registration">
+                    <a href="/participating/registration">
+                    Registration
+                    </a>
                   </a-menu-item>
-                  <a-menu-item key="setting:2">
-                    Option 2
+                  <a-menu-item key="venue">
+                    <a href="/participating/venue">
+                    Venue
+                    </a>
                   </a-menu-item>
-                </a-menu-item-group>
-                <a-menu-item-group title="Item 2">
-                  <a-menu-item key="setting:3">
-                    Option 3
-                  </a-menu-item>
-                  <a-menu-item key="setting:4">
-                    Option 4
-                  </a-menu-item>
-                </a-menu-item-group>
               </a-sub-menu>
               <a-sub-menu>
                 <span slot="title" class="submenu-title-wrapper">PROGRAM<a-icon type="caret-down" /></span>

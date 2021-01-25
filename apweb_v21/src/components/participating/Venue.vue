@@ -1,14 +1,13 @@
 <template>
   <div>
     <DemoHeader></DemoHeader>
-    <router-view/>
-	<div class="title">
+    <div class="title">
 		<img class="icon" src="../../assets/icon.jpg">
-		<div>Overview</div>
+		<div>Venue</div>
 	</div>
-	<div class="content">
-		<img src="../../assets/A.png">
-	</div>
+    <div class="content">
+    
+    </div>
     <DemoFooter></DemoFooter>
   </div>
 </template>
@@ -17,15 +16,14 @@
 import DemoHeader from "@/components/DemoHeader";
 import DemoFooter from "@/components/DemoFooter";
 export default {
-  name: "Overview",
+  name: "Venue",
   components: {DemoFooter, DemoHeader}
 }
 </script>
 
 <style scoped>
-
 .content{
-	width: 920px;
+	width: 1200px;
 	margin:0 auto;
 	text-align: left;
 }

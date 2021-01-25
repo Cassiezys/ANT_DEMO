@@ -17,7 +17,8 @@ import Submission_call_for_demo_papers from "./components/submission/CallForDemo
 import Submission_call_for_workshops from "./components/submission/CallForWorkshops"
 import Submission_call_for_tutorials from "./components/submission/CallForTutorials"
 import Submission_camera_ready_instruction from "./components/submission/CameraReadyInstruction"
-
+import Participating_registration from "./components/participating/Registration"
+import Participating_venue from "./components/participating/Venue"
 
 Vue.use(Router)
 
@@ -104,6 +105,16 @@ export default new Router({
       path: '/submission/CameraReadyInstruction',
       name: 'submission_camera_ready_instruction',
       component: Submission_camera_ready_instruction,
+    },
+    {
+      path: '/participating/Registration',
+      name: 'participating_registration',
+      component: Participating_registration,
+    },
+    {
+      path: '/participating/Venue',
+      name: '/participating_venue',
+      component: Participating_venue,
     }
   ]
 })

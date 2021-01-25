@@ -3,7 +3,7 @@
     <DemoHeader></DemoHeader>
     <router-view/>
 	<div class="title">
-		<img class="icon" src="../../assets/logo.png">
+		<img class="icon" src="../../assets/icon.jpg">
 		<div>Tutorial</div>
 	</div>
 	<div class="content">

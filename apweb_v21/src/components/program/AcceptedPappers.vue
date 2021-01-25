@@ -3,7 +3,7 @@
     <DemoHeader></DemoHeader>
     <router-view/>
 	<div class="title">
-		<img class="icon" src="../../assets/logo.png">
+		<img class="icon" src="../../assets/icon.jpg">
 		<div>Accepted Pappers</div>
 	</div>
 	<div class="content">
@@ -11,7 +11,7 @@
 			<p class="pad-33-em">Keynote Speech I: Exploring Change</p>
 			<p class="keynote-time-location pad-33-em">Time: 9:20-10:40, August 2, 2019</p>
 			<p class="keynote-time-location pad-33-em mb20">Location: 2F Yinxing Hall</p>
-			<img class="icon" style="width: 250px;" src="../../assets/logo.png">
+			<img class="icon" style="width: 250px;" src="../../assets/icon.jpg">
 			<p class="" style="font-size: 18px; font-style: italic; font-weight: bold;padding-bottom: 0.5em;padding-top: 0.5em;">Divesh Srivastava</p>
 
 			<p class="pad">Head of Database Research, AT&amp;T Labs-Research</p><p>
